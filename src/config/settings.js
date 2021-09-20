@@ -29,14 +29,14 @@ import { Hit } from './Hit';
 |
 */
 
-export const inputContainer = '#search-button';
-export const inputContent = 'Search for products';
+export const inputContainer = 'Search';
+export const inputContent = 'Search...';
 export const keyboardShortcuts = ['/'];
-export const appId = 'latency';
-export const searchApiKey = '6be0576ff61c053d5f9a3225e2a90f76';
+export const appId = '2PZ2M6W8LW';
+export const searchApiKey = 'c8e60316efb533d0d2f2b5150ad0c2a4';
 export const hitComponent = Hit;
 export const index = {
-  indexName: 'instant_search',
+  indexName: 'shopify_products',
   searchParameters: {
     analytics: true,
     clickAnalytics: true,
@@ -164,7 +164,7 @@ export const refinements = [
 */
 
 export const suggestionsIndex = {
-  indexName: 'instant_search_demo_query_suggestions',
+  indexName: 'shopify_products',
   searchParameters: {
     hitsPerPage: 6,
   },
